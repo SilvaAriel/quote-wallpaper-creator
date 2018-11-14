@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quote Wallpaper Creator</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+</head>
+<body id="mainPageBody">
+	<h1 id="pageTitle">“Quote Wallpaper” <br> <span id="creator">– Creator</span></h1>
+	<form>
+		<label>Title <br><input type="text" name="quoteName" id="inputTitle" autofocus="autofocus"/></label><br>
+		<label>Quote <br><textarea type="text" name="quote" id="inputQuote"/></textarea><br>
+		<label>Author <br><input type="text" name="author" id="inputAuthor"/></label><br>
+		<input type="submit" name="sendQuote" value="Create" onclick="getQuoteAndAuthor()"/>
+	</form>
+	<script src="js/html2canvas.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

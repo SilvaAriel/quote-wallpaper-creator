@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+div {
+	width: 80%;
+	margin: auto;
+}
+
+#mainPageBody {
+	text-align: center;
+	color: black;
+}
+
+label {
+	font-size: 1.5rem;
+}
+
+#inputTitle, #inputQuote, #inputAuthor {
+	margin: 0px 0 10px 0;
+}
+
+#pageTitle {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 5%;
+}
+
+#creator {
+	margin-left: 15%;
+	font-size: 2.5rem;
+	color: #7F7F7F;
+}
+
+#quote {
+	width: 100%;
+	font-size: 2.6em;
+}
+
+#author {
+	float: right;
+	font-size: 2.5em;
+	color: #7F7F7F;
+}
+
+#title {
+	display: inline;
+	text-align: left;
+	font-size: 2em;
+	color: #7F7F7F;
+}
+
+#outerDiv {
+	margin: 0px;
+	display: table;
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+}
+
+#middleDiv {
+	display: table-cell;
+  	vertical-align: middle;
+}
+
+#innerDiv {
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 70%;
+  	text-align: left;
+}
+
+#screenshotButton {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid black;
+	font-size: 1rem;
+	color: dodgerblue;
+}
+
+#titleColor {}
+
+#quoteColor {}
+
+#authorColor {
+	left: 50%;
+	position: relative;
+}
+
+.colorButton {
+	display: inline-block;
+	max-width: 13vw;
+}
+
+.color {
+	margin-left: 2%;
+	border-radius: 100%;
+	display: inline-block;
+	width: 2vw;
+	height: 4vh;
+
+}
+
+.colorGray {
+	background-color: #7F7F7F;
+}
+
+.colorBlack {
+	background-color: black;
+}
+
+.colorRed {
+	background-color: #F73B3B;
+}
+
+.colorBlue {
+	background-color: #5FA4FF;
+}
+
+.colorPurple {
+	background-color: #BF5DFF;
+}
